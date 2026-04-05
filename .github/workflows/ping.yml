@@ -15,7 +15,7 @@ jobs:
             curl -X POST https://api.z.ai/api/coding/paas/v4/chat/completions \
             -H "Authorization: Bearer ${{ secrets.API_KEY }}" \
             -H "Content-Type: application/json" \
-            -d '{"model":"GLM-4.5-air","messages":[{"role":"user","content":"."}]}' \
+            -d '{"model":"GLM-4.5-air","messages":[{"role":"user","content":"ping"}]}' \
             && break
             sleep 10
           done
