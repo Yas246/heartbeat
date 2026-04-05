@@ -2,7 +2,7 @@ name: API Ping
 
 on:
   schedule:
-    - cron: "0 4,9,14,19 * * *" # 05h, 10h, 15h, 20h local (UTC+1)
+    - cron: "0 4,9,14,19 * * *" # 05h 10h 15h 20h local UTC+1
   workflow_dispatch:
 
 jobs:
